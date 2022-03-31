@@ -12,3 +12,76 @@ html {
 body {
     font-family: "Roboto", "Arial", sans-serif;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55pxn;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-section img {
+    width: 80%;
+    height: 30px;
+    padding-left: 18px;
+}
+
+.mid-section {
+    display: flex;
+    align-items: center;
+    margin-left: -10%;
+}
+
+.mid-section form {
+    display: flex;
+    height: 40px;
+    width: 630px;
+}
+
+.mid-section input {
+    width: 100%;
+    border-radius: 2px 0 0 2px;
+    padding: 12px;
+    font-size: 1.6rem;
+    border: 1px solid #d3d3d3;
+    border-right: none;
+}
+
+.mid-section button {
+    width: 65px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 2px 2px 0;
+    padding-top: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.mid-section button:hover {
+    background-color: #c6c6c6;
+}
+
+.mid-section .mice {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.right-section a {
+    padding-right: 18px;
+    text-decoration: none;
+    color: black;
+}
