@@ -233,3 +233,36 @@ main {
 .video-creator:hover {
     color: black;
 }
+
+@media (max-width:991px) {
+    .mid-section {
+        display: none;
+    }
+    aside {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .mid-section {
+        display: none;
+    }
+    aside {
+        display: none;
+    }
+}
+
+@media (max-width:450px) {
+    .mid-section {
+        display: none;
+    }
+    aside {
+        display: none;
+    }
+    .video {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+}
