@@ -134,3 +134,24 @@ nav {
 #active-span {
     font-weight: 600;
 }
+
+hr {
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+    margin: 10px 0px;
+}
+
+nav p {
+    font-size: 1.4rem;
+    color: #606060;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 16px;
+}
+
+.channel-img {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
